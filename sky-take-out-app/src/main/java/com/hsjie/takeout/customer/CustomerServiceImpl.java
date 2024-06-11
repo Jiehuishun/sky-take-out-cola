@@ -7,13 +7,14 @@ import com.hsjie.takeout.api.CustomerServiceI;
 import com.hsjie.takeout.dto.CustomerAddCmd;
 import com.hsjie.takeout.dto.CustomerListByNameQry;
 import com.hsjie.takeout.dto.data.CustomerDTO;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.hsjie.takeout.customer.executor.CustomerAddCmdExe;
 import com.hsjie.takeout.customer.executor.query.CustomerListByNameQryExe;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 
 
 @Service
