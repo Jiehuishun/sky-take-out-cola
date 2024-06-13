@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Frank Zhang
  */
 @SpringBootApplication(scanBasePackages = {"com.hsjie.takeout", "com.alibaba.cola"})
+// @MapperScan(basePackages ={"com.hsjie.takeout"})
 public class Application {
 
     public static void main(String[] args) {

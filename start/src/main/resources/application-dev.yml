@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sky_take_out
+    username: root
+    password: skytakeoutdev
+
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        security: TRACE

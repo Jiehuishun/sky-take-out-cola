@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: dev
+
+mybatis:
+#  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
